@@ -11,7 +11,7 @@ pipeline {
         echo 'Hello World'
       }
     }
-
+  }
   stage('Hello1') {
       steps {
         echo 'Hello World'
@@ -36,6 +36,7 @@ pipeline {
   }
 
 }
+
 @Library('roboshop') _
 
 test()
@@ -51,5 +52,4 @@ pipeline {
       }
     }
   }
-
-}
+  }
